@@ -1,0 +1,210 @@
+/*camper*/ 
+	.form-camper .single label, .form-camper .double label {
+	width: 100%;
+	display: block;
+	padding-bottom: 8px;
+	}
+	.form-camper input, .form-camper textarea, .form-camper select {
+	width: 100%;
+	margin-bottom: 1px;
+	}
+	.form-camper .checkbox-single input {
+	width: auto;
+	}
+	.form-camper .checkbox-single label {
+	display: inline !important;
+	}
+	.form-camper label.checkbox-label {
+	width: 100% !important;
+	display: block !important;
+	font-weight: bold;
+	margin-top: 16px;
+	}
+	.form-camper .side-right {
+	width: 49%;
+	}
+	.form-camper .sideleft {
+	width: 49%;
+	margin-right: 2%;
+	}
+	.form-camper .double {
+	display: flex;
+	}
+	.form-camper .single, .form-camper .double {
+	margin-bottom: 5px;
+	}
+
+/*camper table*/
+	table.table-camper {
+	width: 100%;
+	border-collapse: collapse;
+	margin:50px auto;
+	}
+	/*tr:nth-of-type(odd) {
+	background: #eee;
+	}*/
+	.table-camper th {
+	background-color: #dddddd;
+	color: 000;
+	font-weight: bold;
+	}
+	.table-camper td, .table-camper th {
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 18px;
+	}
+	@media	only screen and (max-width: 760px),	(min-device-width: 768px) and (max-device-width: 1024px)  {
+	table.table-camper {
+		width: 100%;
+	}
+	/*table.table-camper, .table-camper thead, .table-camper body, .table-camper th, .table-camper td, .table-camper tr {
+		display: block;
+	}*/
+	.table-camper thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}	
+	.table-camper tr { border: 1px solid #ccc; }
+	
+	.table-camper td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+	}
+	.table-camper td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		color: #000;
+		font-weight: bold;
+	}
+	}
+
+/* for camper label on single product */
+.variations .label {
+    padding-right: 1em;
+    min-width: 18em !important;
+    width: 18em !important;
+}
+
+	/*camper*/
+/*form*/
+.woocommerce-account section#content select {
+	padding: 8px 11px !important; 
+}
+.woocommerce-account section#content textarea {
+	padding: 8px 15px !important;
+}
+@media	only screen and (max-width: 767px) {
+.table-camper td {
+    padding: 5px 8px !important;
+    white-space: nowrap;
+    border-right: 1px solid #cccccc;
+    font-size: 16px;
+}
+.scrollable {
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.table-wrapper {
+    overflow: hidden;
+}
+}
+
+
+
+/* remove Remove state/category from bottom. */
+.product_meta{ display: none !important; }
+
+/* plus minus quantity select disable */
+.input-text.qty {
+    pointer-events: none;
+}
+.buttons_added .plus {
+    display: none;
+}
+.buttons_added .minus {
+    display: none;
+}
+
+/* external prodcut camp hide */
+.product-type-external .cart h3 {
+	display: none;
+}
+.product-type-external .table-wrapper {
+	display: none;
+}
+.user-not-login {
+    border: 1px solid red;
+    padding: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/*waitlist*/
+.user-not-login {
+            border: 1px solid red;
+            padding: 10px;
+            color: red;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        label.error {
+            padding: 5px;
+            color: red;
+            font-size: 14px;
+        }
+        .campers-data .formtitle {
+            font-size: 22px;
+            color: black;
+            font-weight: 600;
+        }
+        .campers-data p {
+            margin-bottom: 0px !important;
+        }
+        .camp-week-data {
+            margin-top: 10px;
+        }
+        .campers-data select {
+            width: 100%;
+        }
+        .campers-data textarea {
+            width: 100%;
+        }
+        .additional-data {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .campers-data input[type=submit]{
+            border-radius: 4px 4px 4px 4px;
+            border: none;
+            background: #24255e;
+            color: white;
+            padding: 15px 30px 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        .result-sucess{
+            display: none;
+        }
+        .sucessfull-result{
+            display: block !important;
+        }
+        .error-camper{
+        	color: red;
+        	font-weight: 600;
+        	margin-bottom: 0px !important; 
+        }
+        .green{
+        	color: green;
+        	font-weight: 600;
+        }

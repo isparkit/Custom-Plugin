@@ -1,0 +1,122 @@
+table.table-camper {
+    border-collapse: collapse;
+    margin: 20px 20px 0;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table-camper thead tr {
+    background-color: #25255e;
+    color: #ffffff;
+    text-align: left;
+}
+.table-camper th,
+.table-camper td {
+    padding: 12px 15px;
+}
+
+.table-camper tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-camper tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-camper tbody tr:last-of-type {
+    border-bottom: 3px solid #25255e;
+}
+
+/*
+.table-camper th {
+    background-color: #25255e;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px !important;
+}
+
+.table-camper td, 
+.table-camper th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    }
+
+tr:nth-child(even){
+	background-color: #ececec;
+}
+*/
+
+
+/*
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    table.table-camper {
+        width: 100%;
+    }
+    table.table-camper, .table-camper thead, .table-camper body, .table-camper th, .table-camper td, .table-camper tr {
+        display: block;
+    }
+    .table-camper thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    .table-camper tr { border: 1px solid #ccc; }
+    
+    .table-camper td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    .table-camper td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        color: #000;
+        font-weight: bold;
+    }
+}   
+*/
+
+a.current #activeroster {
+    color: red;
+}
+    .mybtn{
+    border: 1px solid #2271b1;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #2271b1;
+    margin: 5px;
+    display: table;
+    border-radius: 2px;
+}
+    .mybtn:hover{
+    border: 1px solid #2271b1;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2271b1;
+    background: #fff;
+    margin: 5px;
+    display: table;
+    border-radius: 2px;
+}
+.user-not-login {
+    border: 1px solid red;
+    padding: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
